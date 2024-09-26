@@ -1,0 +1,108 @@
+body {
+    background-color:grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 150px;
+    margin: 0;
+}
+
+.resume-container{
+    display: flex;
+    background-color:whitesmoke;
+    width: 80%;
+    margin: 0 auto;
+   
+
+}
+
+/* Left Section */
+.left-section{
+    background-color: midnightblue;
+    color: silver;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-left: 5px solid rgb(76, 75, 75);
+    border-top: 5px solid rgb(76, 75, 75);
+    border-bottom: 5px solid rgb(76, 75, 75);
+    justify-content: center;
+    border-right: solid rgb(76, 75, 75);
+
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 150px;
+    border: solid rgb(82, 77, 77);
+    margin-bottom: 10px;
+}
+
+
+h1 {
+    font-size: 30px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: midnightblue;
+    
+
+}
+h3 {
+    font-size: 20px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: midnightblue;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgb(138, 143, 143);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-weight: bolder;
+   
+}
+
+ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+    font-size: 17px;
+
+
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.personal-info{
+    color: midnightblue;
+    font-size: 17px;
+
+}
+
+/* Right Section */
+
+.right-section{
+    padding: 20px;
+    width: 65%;
+    border-top: 5px solid rgb(76, 75, 75);
+    border-bottom: 5px solid rgb(76, 75, 75);
+    justify-content: center;
+    border-right: 6px solid rgb(76, 75, 75);
+}
+.button {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 10px;
+    box-shadow:white;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+
+}
+
+button:hover {
+    background-color:midnightblue;
+    color: white;
+}
